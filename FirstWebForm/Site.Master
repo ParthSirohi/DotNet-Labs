@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="FirstWebForm.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Sneaker Master
+        </title>
+    </head>
+    <body>
+        <style color:crimson></style>
+        <h1>Sneaker Shop Intranet</h1>
+        
+               
+        <hr />
+        <header>
+            <a href="Login.aspx">Login</a>
+            <a href="DashBoard.aspx">Dashboard</a>
+            <style     background-color: orangered;
+    height: 60px;
+    border-style: outset;
+    padding: inherit;></style>
+
+            
+
+        </header>
+        <asp:ContentPlaceHolder ID="Pages" runat="server"></asp:ContentPlaceHolder>
+        <footer>
+            <b>© All Rights Reserved by SneakerShop</b>
+        </footer>
+    </body>
+</html>
